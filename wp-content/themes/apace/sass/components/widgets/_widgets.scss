@@ -1,0 +1,214 @@
+.widget {
+	margin: 0 0 30px;
+
+	// Make sure select elements fit in widgets.
+	select {
+		max-width: 100%;
+	}
+}
+
+#secondary.widget-area {
+	ul {
+		margin: 0;
+		padding: 0;
+
+		li:not(.wp-block-social-link) {
+			list-style: none;
+			padding: 4px 0;
+
+			a {
+				color: #555555;
+				padding: 5px 0;
+
+				&:hover { 
+					color: $color__theme;
+				}
+			}
+		}
+	}
+}
+
+.is-style-apace-widget-title,
+.widget-title {
+	text-transform: uppercase;
+	border-bottom: 2px solid $color__theme;
+	font-size: 1.25rem;
+	font-weight: bold;
+	margin: 0 0 15px;
+}
+
+/* Search widget */
+.search-form {
+	display: block;
+	position: relative;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	width: 100%;
+}
+  
+.search-form .search-field {
+	display: block;
+	margin: 0;
+	height: 45px;
+	padding: 10px 90px 10px 10px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-appearance: none;
+	border-radius: 3px;
+	width: 100%;
+}
+  
+.search-form label {
+	display: block;
+}
+  
+.search-form .search-field::placeholder {
+	color: #aaa;
+}
+  
+.search-form .search-submit {
+	height: 45px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	border: none;
+	padding: 10px 20px;
+	cursor: pointer;
+}
+  
+.search-form .search-submit:hover {
+	background: #222;
+}
+
+.wp-block-search__label.screen-reader-text {
+    position: absolute;
+    top: -9999em;
+    left: -9999em;
+}
+
+.wp-block-search .wp-block-search__input {
+    margin: 0;
+    height: 45px;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    border-radius: 3px;
+    color: #666;
+    border: 1px solid #dddddd;
+}
+
+.wp-block-search .wp-block-search__button {
+    height: 45px;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-left: 0;
+    border-radius: 3px;
+    background: $color__theme;
+    color: #ffffff;
+    font-size: 14px;
+    font-size: 0.875rem;
+    font-weight: bold;
+    line-height: 1;
+	text-transform: uppercase;
+
+    &:hover {
+        background: #222;
+    }
+}
+
+.wp-block-search.wp-block-search__button-inside .wp-block-search__inside-wrapper {
+	border: 1px solid #dddddd;
+	border-radius: 3px;
+}
+
+.wp-block-search .wp-block-search__button svg {
+	fill: #ffffff;
+}
+.wp-block-search.wp-block-search__button-inside .wp-block-search__inside-wrapper .wp-block-search__button,
+.wp-block-search.wp-block-search__button-inside .wp-block-search__inside-wrapper .wp-block-search__input {
+	height: 35px;
+}
+
+.apa-footer-widget-container {
+
+	color: #dddddd;
+
+	h1,h2,h3,h4,h5,h6,
+	.widget-title {
+		color: #ffffff;
+	}
+
+	ul {
+		margin: 0;
+		padding: 0;
+
+		li:not(.wp-block-social-link) {
+			list-style: none;
+			padding: 4px 0;
+
+			a {
+				color: #eeeeee;
+			
+				&:hover { 
+					color: $color__theme;
+				}
+			}
+		}
+	}
+
+	@media ( min-width: 768px) {
+		display: flex;
+		justify-content: space-between;
+		flex-direction: row;
+	}
+	
+}
+
+.apa-footer-widget-column {
+	.widget {
+		margin: 20px 0;
+
+		&:first-child {
+			margin-top: 50px;
+		}
+
+		&:last-child {
+			margin-bottom: 50px;
+		}
+	}
+	
+	@media ( min-width: 768px) {
+		width: 31.3390%;
+	}
+}
+
+ol.wp-block-latest-comments {
+    padding-left: 0;
+}
+
+.wp-block-latest-comments__comment-meta {
+	a {
+		color: #000000;
+
+		&:visited {
+			color: #000000;
+		}
+
+		&:hover {
+			color: $color__theme;
+		}
+	}
+}
+
+.apa-header-widget-area .wp-block-social-links {
+	margin-bottom: 0;
+}
+
+.widget_text a {
+	text-decoration: underline;
+}

@@ -1,0 +1,40 @@
+.site-footer {
+    background: #222222;
+    color: #dddddd;
+
+    a{
+        color: #eeeeee;
+        &:hover {
+            color: $color__theme;
+        }
+    }
+}
+
+.apa-footer-site-info {
+    background: #111111;
+    padding: 20px 0;
+    font-size: 0.875rem;
+}
+
+.apa-footer-info-container {
+    @media ( min-width: 768px ) {
+        display: flex;
+    }
+}
+
+.apa-designer-credit {
+    @media ( min-width: 768px ) {
+        text-align: right;
+    }
+}
+
+.apa-designer-credit,
+.apa-owner-copyright {
+    @media ( min-width: 768px ) {
+        width: 50%;
+    }
+
+    @media ( max-width: 768px ) {
+        text-align: center;
+    }
+}

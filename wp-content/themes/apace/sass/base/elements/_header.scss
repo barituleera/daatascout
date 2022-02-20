@@ -1,0 +1,73 @@
+.site-header {
+    margin-bottom: 40px;
+}
+
+.apa-header-main-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px 30px;
+}
+
+@media(min-width: 990px) {
+    .apa-header-main-container {
+        padding: 20px 40px;
+    }
+}
+
+.apa-site-branding {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.apa-logo-container {
+    img {
+        margin-right: 20px;
+        vertical-align: middle;
+    }
+}
+
+.site-title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 0;
+
+    a {
+        color: $color__theme;
+
+        &:visited {
+            color: $color__theme; 
+        }
+
+        &:hover {
+            color: #222; 
+        }
+    }
+}
+
+.site-description {
+    margin: 0;
+}
+
+.apa-header-widget-area {
+    @media only screen and (min-width: 482px) {
+        margin-left: auto;
+    }
+
+    .wp-block-image img {
+        vertical-align: middle;
+    }
+
+    .wp-block-image:first-child,
+    .widget:first-child {
+        margin-bottom: 0;
+    }
+}
+
+.apa-header-image { 
+    text-align: center;
+    img {
+        vertical-align: middle;
+    }
+}

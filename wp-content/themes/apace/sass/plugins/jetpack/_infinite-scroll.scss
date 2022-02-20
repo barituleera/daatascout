@@ -1,0 +1,19 @@
+/* Hide the Posts Navigation and the Footer when Infinite Scroll is in use. */
+.infinite-scroll .apace-pagination,
+.infinite-scroll.neverending .site-footer {
+	display: none;
+}
+
+/* Re-display the Theme Footer when Infinite Scroll has reached its end. */
+.infinity-end.neverending .site-footer {
+	display: block;
+}
+
+#infinite-handle {
+	text-align: center;
+}
+
+#infinite-handle span {
+    font-weight: 600;
+    padding: 10px 25px;
+}

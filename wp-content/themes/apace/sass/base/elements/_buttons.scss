@@ -1,0 +1,24 @@
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	border: none;
+	border-radius: 3px;
+	background: $color__theme;
+	color: #ffffff;
+	cursor: pointer;
+	font-size: 0.875rem;
+	font-weight: 700;
+	line-height: 1;
+	padding: 1em 1.5em;
+	text-transform: uppercase;
+
+	&:hover {
+		background: #222222;
+	}
+
+	&:active,
+	&:focus {
+		background: #222222;
+	}
+}

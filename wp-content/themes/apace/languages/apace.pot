@@ -1,0 +1,268 @@
+# Copyright (C) 2021 ThemezHut
+# This file is distributed under the GNU General Public License v2 or later.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Apace 1.0.3\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/apace\n"
+"POT-Creation-Date: 2022-02-11 15:48+0530\n"
+"PO-Revision-Date: 2021-12-15 20:36+0530\n"
+"Last-Translator: \n"
+"Language-Team: ThemezHut\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Domain: apace\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__;esc_html_e;esc_attr__;esc_attr_e;_n;"
+"_nx;esc_html_x\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:18
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:22
+msgid "It looks like nothing was found at this location. May be try searching?"
+msgstr ""
+
+#: comments.php:35
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#: comments.php:41
+#, php-format
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgstr ""
+
+#: comments.php:68
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:44
+#, php-format
+msgid "Copyright &#169; %1$s %2$s."
+msgstr ""
+
+#: footer.php:50
+msgid "https://wordpress.org/"
+msgstr ""
+
+#: footer.php:53
+#, php-format
+msgid "Proudly powered by %s"
+msgstr ""
+
+#: footer.php:59
+#, php-format
+msgid "Theme: %1$s by %2$s."
+msgstr ""
+
+#: functions.php:54
+msgid "Main Menu"
+msgstr ""
+
+#: functions.php:137
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:139
+msgid "Add widgets here to display in the main sidebar."
+msgstr ""
+
+#: functions.php:148
+msgid "Header Widget Area"
+msgstr ""
+
+#: functions.php:150
+msgid "Add widgets that you want to display next to site title."
+msgstr ""
+
+#: functions.php:159
+msgid "Footer Left Sidebar"
+msgstr ""
+
+#: functions.php:161
+msgid "Add widgets to the left side of the footer widget area."
+msgstr ""
+
+#: functions.php:170
+msgid "Footer Mid Sidebar"
+msgstr ""
+
+#: functions.php:172
+msgid "Add widgets to the middle of the footer widget area."
+msgstr ""
+
+#: functions.php:181
+msgid "Footer Right Sidebar"
+msgstr ""
+
+#: functions.php:183
+msgid "Add widgets to the right side of the footer widget area."
+msgstr ""
+
+#: header.php:26
+msgid "Skip to content"
+msgstr ""
+
+#: inc/block-styles.php:21
+msgid "Widget title style"
+msgstr ""
+
+#: inc/class-apace-nav-walker.php:55 inc/template-functions.php:101
+msgid "Show sub menu"
+msgstr ""
+
+#: inc/class-apace-nav-walker.php:93
+#, php-format
+msgid "#%d (no title)"
+msgstr ""
+
+#: inc/customizer.php:52
+msgid "Primary Color"
+msgstr ""
+
+#: inc/customizer.php:53
+msgid "Select the main color of your site."
+msgstr ""
+
+#: inc/customizer.php:64
+msgid "Theme Settings"
+msgstr ""
+
+#: inc/customizer.php:74
+msgid "Layout Options"
+msgstr ""
+
+#: inc/customizer.php:96
+msgid "Site Layout"
+msgstr ""
+
+#: inc/customizer.php:98
+msgid "Boxed Layout"
+msgstr ""
+
+#: inc/customizer.php:99
+msgid "Wide Layout"
+msgstr ""
+
+#: inc/customizer.php:112
+msgid "Content Options"
+msgstr ""
+
+#: inc/customizer.php:122
+msgid "Blog / Archive Content"
+msgstr ""
+
+#: inc/customizer.php:143 inc/customizer.php:275
+msgid "Display Author"
+msgstr ""
+
+#: inc/customizer.php:163 inc/customizer.php:295
+msgid "Display Date"
+msgstr ""
+
+#: inc/customizer.php:183 inc/customizer.php:315
+msgid "Display Comments Count"
+msgstr ""
+
+#: inc/customizer.php:203
+msgid "Display Read More Link."
+msgstr ""
+
+#: inc/customizer.php:223 inc/customizer.php:335
+msgid "Display Featured Image."
+msgstr ""
+
+#: inc/customizer.php:243
+msgid "Excerpt Length"
+msgstr ""
+
+#: inc/customizer.php:244
+msgid "Default is 30"
+msgstr ""
+
+#: inc/customizer.php:254
+msgid "Single Post Content"
+msgstr ""
+
+#: inc/customizer.php:355
+msgid "Display Category List"
+msgstr ""
+
+#: inc/customizer.php:375
+msgid "Display Tag List"
+msgstr ""
+
+#: inc/customizer.php:385
+msgid "Footer Options"
+msgstr ""
+
+#: inc/customizer.php:405
+msgid "Footer Copyright Text"
+msgstr ""
+
+#: inc/template-functions.php:68
+msgid "Read more"
+msgstr ""
+
+#: inc/template-tags.php:280
+#, php-format
+msgid "%s Previous"
+msgstr ""
+
+#: inc/template-tags.php:285
+#, php-format
+msgid "Next %s"
+msgstr ""
+
+#: search.php:22
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:24
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:37
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:44
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:25 template-parts/content-single.php:53
+#: template-parts/content.php:42
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content-page.php:39
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: template-parts/content-single.php:40
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: template-parts/header/site-nav.php:4
+msgid "Menu"
+msgstr ""
